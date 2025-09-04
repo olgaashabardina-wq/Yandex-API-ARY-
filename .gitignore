@@ -1,0 +1,43 @@
+# виртуальные окружения
+.venv/
+venv/
+env/
+
+# python-кэши
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# сборки/пакеты
+build/
+dist/
+*.egg-info/
+
+# тестовые/линтер кэши
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ноутбуки
+.ipynb_checkpoints/
+
+# IDE/редакторы
+.vscode/
+.idea/
+
+# ОС-мусор
+.DS_Store
+Thumbs.db
+
+# логи и временные результаты
+*.log
+result.*
+
+# версии питона/инструментов
+.python-version
+
+# переменные окружения и секреты
+.env
+.env.*
+.env.local
